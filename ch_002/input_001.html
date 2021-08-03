@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input - Element such as Button - Text</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Playing with events</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                Assign/Bind event using event attribute onClick. Function name buttonHelloClick() will be executed when
+                button is clicked
+            </div>
+            <div class="col">
+                <input type="button" id="buttonHello" onclick="buttonHelloClick()" value="Hello" class="btn-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Method addEventListener()</p>
+                <p></p>
+            </div>
+            <div class="col">
+                <input type="button" id="buttonMessage" value="Message Say Hello" class="btn btn-warning">
+            </div>
+
+        </div>
+    </div>
+    <script src="input_001.js"></script>
+</body>
+
+</html>
